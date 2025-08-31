@@ -10,6 +10,9 @@
 
 如需自行编译和烧写固件，请参考[源码构建文档](https://docs.sifli.com/projects/xiaozhi/source-build/)。
 
+## 烧录命令
+`./sftool.exe -p COM3 -c SF32LB52 write_flash bootloader.bin@0x12010000 ftab.bin@0x12000000 ER_IROM2.bin@0x12A28000 ER_IROM3.bin@0x12268000 ER_IROM1.bin@0x12020000`
+
 ## 支持硬件
 
 - [SF32LB52-DevKit-LCD](https://wiki.sifli.com/board/sf32lb52x/SF32LB52-DevKit-LCD.html)
